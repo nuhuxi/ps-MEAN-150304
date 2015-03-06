@@ -15,7 +15,7 @@ function compile(str, path){
 app.set('views', __dirname + '/server/views');
 app.set('view engine', 'jade');
 app.use(logger('dev'));
-app.use(bodyParser());
+app.use(bodyparser());
 app.use(stylus.middleware(
   {
     src: __dirname + '/public', 
