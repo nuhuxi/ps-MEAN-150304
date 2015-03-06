@@ -6,7 +6,7 @@ angular.module('app').config(function($routeProvider, $locationProvider){
   $routeProvider  
     .when('/', {
       templateUrl: '/partials/main', 
-      controller: 'MainCtrl'
+      controller: 'mainCtrl'
   });
   
   angular.module('app').controller('mainCtrl', function($scope){
